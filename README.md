@@ -29,8 +29,6 @@
 
 [![3D Contributions](https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/master/profile-3d-contrib/profile-night-green.svg)](https://github.com/EvgeniBondarev)
 
-> *Graph auto-updates via GitHub Actions · powered by [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)*
-
 </div>
 
 ---
@@ -41,6 +39,7 @@
 |---|---|---|
 | 🧠 **[TaskExtraction](https://github.com/EvgeniBondarev/TaskExtraction)** | Автоматическое извлечение задач из Telegram-чатов | TypeScript |
 | 🔌 **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | ASP.NET Core Web API для каталога автозапчастей TecDoc + Elasticsearch | C# |
+| 🌐 **[NetBorder](https://github.com/EvgeniBondarev/NetBorder)** | Chromium-расширение: учёт внешнего трафика по дням и предупреждение о лимите | TypeScript |
 | 🤖 **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Async FastAPI микросервис для очередей и отправки сообщений в Telegram | Python |
 | 💰 **[Ozon-Price-Manager](https://github.com/EvgeniBondarev/Ozon-Price-Manager)** | Инструмент управления ценами товаров на Ozon | JavaScript |
 | 🛢️ **[gs-sql](https://github.com/EvgeniBondarev/gs-sql)** | SQL-библиотека на Python | Python |
@@ -67,37 +66,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![](https://img.shields.io/badge/Repos-46-58a6ff?style=flat-square)
-![](https://img.shields.io/badge/Focus-.NET%20%2F%20Python%20%2F%20AI-1f6feb?style=flat-square)
-![](https://img.shields.io/badge/Location-London-c9d1d9?style=flat-square)
-</div>
-
----
-
-## 🏅 Achievements
-
-<div align="center">
-
-[![Pair Extraordinaire x3](https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png)](https://github.com/EvgeniBondarev?achievement=pair-extraordinaire&tab=achievements)
-[![Pull Shark x3](https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png)](https://github.com/EvgeniBondarev?achievement=pull-shark&tab=achievements)
-[![YOLO](https://github.githubassets.com/assets/yolo-default-be0bbff04951.png)](https://github.com/EvgeniBondarev?achievement=yolo&tab=achievements)
-
-</div>
-
----
-
-## 💡 Philosophy
-
-```
-Build fast.   Ship often.   Improve every day.   Talk to users.
-```
 
 ---
 
