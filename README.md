@@ -74,8 +74,9 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats-git-masterorsomethinglikethis-anuraghazra.vercel.app/api?username=EvgeniBondarev&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9)
-
+![](https://img.shields.io/badge/Repos-46-58a6ff?style=flat-square)
+![](https://img.shields.io/badge/Focus-.NET%20%2F%20Python%20%2F%20AI-1f6feb?style=flat-square)
+![](https://img.shields.io/badge/Location-London-c9d1d9?style=flat-square)
 </div>
 
 ---
