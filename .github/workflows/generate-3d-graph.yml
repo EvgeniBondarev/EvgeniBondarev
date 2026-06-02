@@ -1,0 +1,58 @@
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D Contribution Graph
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          SETTING_JSON: |
+            {
+              "githubUserName": "EvgeniBondarev",
+              "startDay": 0,
+              "type": "SVG",
+              "option": [
+                {
+                  "filename": "profile-night-rainbow.svg",
+                  "layers": [
+                    {
+                      "type": "BackgroundLayer",
+                      "props": { "color": "#0d1117" }
+                    },
+                    {
+                      "type": "ContributionGraph3DLayer",
+                      "props": {
+                        "style": "NightRainbow"
+                      }
+                    },
+                    {
+                      "type": "TitleLayer",
+                      "props": {
+                        "text": "EvgeniBondarev's Contributions"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+
+      - run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A .
+          git commit -m "Generate 3D contribution graph" || true
+          git push
