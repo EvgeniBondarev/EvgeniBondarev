@@ -10,29 +10,6 @@ Building AI products, automation tools and SaaS applications.
 
 ---
 
-## 🚀 Startup Metrics
-
-```text
-🚀 Products Launched: 15+
-🤖 AI Projects Built: 20+
-⭐ GitHub Stars: Growing
-💬 Telegram Bots Created: 10+
-⚡ Years Building Software: 10+
-```
-
----
-
-## 🔥 Current Focus
-
-* AI-powered products
-* Telegram automation
-* SaaS platforms
-* Productivity tools
-* LLM integrations
-* Startup growth
-
----
-
 ## 🚀 Featured Projects
 
 ### Nova3D
@@ -53,6 +30,16 @@ Bots and workflows for business automation.
 
 ---
 
+## 🧠 What I Build
+
+* AI-powered tools & SaaS
+* Telegram automation systems
+* LLM-based workflows
+* Developer productivity tools
+* Startup MVPs
+
+---
+
 ## 🛠 Tech Stack
 
 <p align="center">
@@ -61,38 +48,60 @@ Bots and workflows for business automation.
 
 ---
 
+## 🌈 3D Contribution Graph
+
+Один из самых сильных визуальных эффектов для GitHub профиля.
+
+### 👉 3D GitHub Activity
+
+Используется генератор:
+
+* https://github.com/yoshi389111/github-profile-3d-contrib
+
+После настройки добавь в профиль:
+
+```markdown id="3dgraph"
+## 🌈 Contribution 3D Graph
+
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+```
+
+---
+
+## 🏙 GitHub Skyline (реальный 3D мир)
+
+Самый “вау” эффект из всех — твои коммиты превращаются в 3D-город.
+
+* https://skyline.github.com
+
+Ты можешь:
+
+* сгенерировать 3D город
+* скачать изображение или GIF
+* вставить в README
+
+```markdown id="skyline"
+## 🏙 GitHub Skyline
+
+![Skyline](https://skyline.github.com/YOUR_USERNAME.png)
+```
+
+---
+
+## ⚡ Contribution Snake
+
+```markdown id="snake"
+![snake](https://github.com/EvgeniBondarev/EvgeniBondarev/blob/output/github-contribution-grid-snake.svg)
+```
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EvgeniBondarev&show_icons=true&rank_icon=github&hide_border=true" />
-
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=EvgeniBondarev&show_icons=true&hide_border=true" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EvgeniBondarev&layout=compact&hide_border=true" />
 </p>
-
----
-
-## ⚡ Contribution Streak
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=EvgeniBondarev&hide_border=true" />
-</p>
-
----
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-Always building, shipping and improving.
-</p>
-
----
-
-## 🌍 Connect
-
-* GitHub: https://github.com/EvgeniBondarev
-* ProductRadar
-* Nova3D
-* Telegram
 
 ---
 
@@ -100,11 +109,11 @@ Always building, shipping and improving.
 
 Build fast.
 Ship often.
-Talk to users.
 Improve every day.
+Talk to users.
 
 ---
 
 <p align="center">
-🚀 Building the next generation of AI products.
+🚀 Building AI products that ship.
 </p>
