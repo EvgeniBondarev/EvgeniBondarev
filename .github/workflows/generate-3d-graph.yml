@@ -53,6 +53,7 @@ jobs:
       - run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
+          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git master
           git add -A .
           git commit -m "Generate 3D contribution graph" || true
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master --force
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
