@@ -22,6 +22,7 @@ jobs:
       - run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
+          git pull origin master --rebase
           git add -A .
           git commit -m "Generate 3D contribution graph" || true
-          git push origin HEAD:master --force-with-lease
+          git push origin HEAD:master
