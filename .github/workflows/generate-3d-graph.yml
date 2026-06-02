@@ -55,4 +55,4 @@ jobs:
           git config user.name "GitHub Action"
           git add -A .
           git commit -m "Generate 3D contribution graph" || true
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master --force
