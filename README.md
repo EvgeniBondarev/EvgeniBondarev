@@ -1,119 +1,109 @@
-# Hi, I'm Evgeni Bondarev 👋
+<div align="center">
 
-<p align="center">
-  <b>AI Founder • Indie Hacker • .NET Developer</b>
-</p>
+```
+███████╗██╗   ██╗ ██████╗ ███████╗███╗   ██╗██╗
+██╔════╝██║   ██║██╔════╝ ██╔════╝████╗  ██║██║
+█████╗  ██║   ██║██║  ███╗█████╗  ██╔██╗ ██║██║
+██╔══╝  ╚██╗ ██╔╝██║   ██║██╔══╝  ██║╚██╗██║██║
+███████╗ ╚████╔╝ ╚██████╔╝███████╗██║ ╚████║██║
+╚══════╝  ╚═══╝   ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝
+```
 
-<p align="center">
-Building AI products, automation tools and SaaS applications.
-</p>
+# Bondarev Evgeni · `EvgeniBondarev`
+
+**AI Founder · Indie Hacker · .NET Developer**
+
+*Building AI products, automation tools and SaaS applications*
+
+[![Telegram](https://img.shields.io/badge/Telegram-@Burn1ngSnow-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Burn1ngSnow)
+[![Website](https://img.shields.io/badge/Website-task--extraction.ru-222?style=flat-square&logo=googlechrome&logoColor=white)](https://task-extraction.ru)
+[![GitHub](https://img.shields.io/badge/GitHub-EvgeniBondarev-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EvgeniBondarev)
+
+</div>
+
+---
+
+## 🌐 3D Contribution Graph
+
+<div align="center">
+
+[![3D Contributions](https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/main/profile-3d-contrib/profile-night-rainbow.svg)](https://github.com/EvgeniBondarev)
+
+> *Graph auto-updates via GitHub Actions · powered by [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)*
+
+</div>
 
 ---
 
 ## 🚀 Featured Projects
 
-### Nova3D
-
-AI-powered 3D generation platform.
-
-### ProductRadar
-
-Platform for discovering new products and startups.
-
-### Task Extraction
-
-Extract tasks automatically from chats and messages.
-
-### Telegram Automation
-
-Bots and workflows for business automation.
+| Project | Description | Stack |
+|---|---|---|
+| 🧠 **[TaskExtraction](https://github.com/EvgeniBondarev/TaskExtraction)** | Автоматическое извлечение задач из Telegram-чатов | TypeScript |
+| 🔌 **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | ASP.NET Core Web API для каталога автозапчастей TecDoc + Elasticsearch | C# |
+| 🤖 **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Async FastAPI микросервис для очередей и отправки сообщений в Telegram | Python |
+| 💰 **[Ozon-Price-Manager](https://github.com/EvgeniBondarev/Ozon-Price-Manager)** | Инструмент управления ценами товаров на Ozon | JavaScript |
+| 🛢️ **[gs-sql](https://github.com/EvgeniBondarev/gs-sql)** | SQL-библиотека на Python | Python |
 
 ---
 
-## 🧠 What I Build
+## 🛠️ Tech Stack
 
-* AI-powered tools & SaaS
-* Telegram automation systems
-* LLM-based workflows
-* Developer productivity tools
-* Startup MVPs
+<div align="center">
 
----
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-## 🛠 Tech Stack
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=cs,dotnet,postgres,redis,docker,linux,nginx,react,ts,git,github,vscode" />
-</p>
-
----
-
-## 🌈 3D Contribution Graph
-
-Один из самых сильных визуальных эффектов для GitHub профиля.
-
-### 👉 3D GitHub Activity
-
-Используется генератор:
-
-* https://github.com/yoshi389111/github-profile-3d-contrib
-
-После настройки добавь в профиль:
-
-```markdown id="3dgraph"
-## 🌈 Contribution 3D Graph
-
-![](./profile-3d-contrib/profile-night-rainbow.svg)
-```
-
----
-
-## 🏙 GitHub Skyline (реальный 3D мир)
-
-Самый “вау” эффект из всех — твои коммиты превращаются в 3D-город.
-
-* https://skyline.github.com
-
-Ты можешь:
-
-* сгенерировать 3D город
-* скачать изображение или GIF
-* вставить в README
-
-```markdown id="skyline"
-## 🏙 GitHub Skyline
-
-![Skyline](https://skyline.github.com/EvgeniBondarev.png)
-```
-
----
-
-## ⚡ Contribution Snake
-
-```markdown id="snake"
-![snake](https://github.com/EvgeniBondarev/EvgeniBondarev/blob/output/github-contribution-grid-snake.svg)
-```
+</div>
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EvgeniBondarev&show_icons=true&hide_border=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EvgeniBondarev&layout=compact&hide_border=true" />
-</p>
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EvgeniBondarev&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EvgeniBondarev&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+
+</div>
+
+---
+
+## 🏅 Achievements
+
+<div align="center">
+
+[![Pair Extraordinaire x3](https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png)](https://github.com/EvgeniBondarev?achievement=pair-extraordinaire&tab=achievements)
+[![Pull Shark x3](https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png)](https://github.com/EvgeniBondarev?achievement=pull-shark&tab=achievements)
+[![YOLO](https://github.githubassets.com/assets/yolo-default-be0bbff04951.png)](https://github.com/EvgeniBondarev?achievement=yolo&tab=achievements)
+
+</div>
 
 ---
 
 ## 💡 Philosophy
 
-Build fast.
-Ship often.
-Improve every day.
-Talk to users.
+```
+Build fast.   Ship often.   Improve every day.   Talk to users.
+```
 
 ---
 
-<p align="center">
-🚀 Building AI products that ship.
-</p>
+<div align="center">
+
+*London · 46 repositories · Open to collaboration*
+
+</div>
