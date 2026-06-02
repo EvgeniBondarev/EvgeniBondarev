@@ -27,7 +27,7 @@
 
 <div align="center">
 
-[![3D Contributions](https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/main/profile-3d-contrib/profile-night-rainbow.svg)](https://github.com/EvgeniBondarev)
+[![3D Contributions](https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/master/profile-3d-contrib/profile-night-rainbow.svg)](https://github.com/EvgeniBondarev)
 
 > *Graph auto-updates via GitHub Actions · powered by [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib)*
 
