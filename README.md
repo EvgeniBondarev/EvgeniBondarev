@@ -83,7 +83,7 @@ Bots and workflows for business automation.
 ```markdown id="skyline"
 ## 🏙 GitHub Skyline
 
-![Skyline](https://skyline.github.com/YOUR_USERNAME.png)
+![Skyline](https://skyline.github.com/EvgeniBondarev.png)
 ```
 
 ---
