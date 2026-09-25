@@ -2,10 +2,10 @@
 
 # Bondarev Evgeni
 
-**.NET-разработчик · AI-инструменты · автоматизация маркетплейсов**
+**.NET-разработчик · AI-инструменты · автоматизация бизнес-процессов**
 
-Делаю продакшн-системы для e-commerce (Ozon, поставщики автозапчастей, 1С),
-LLM-сервисы и небольшие продукты, которые решают одну задачу хорошо.
+Проектирую и запускаю продакшн-системы, интеграции и LLM-сервисы,
+а ещё небольшие продукты, которые решают одну задачу хорошо.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@Burn1ngSnow-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Burn1ngSnow)
 [![TaskExtraction](https://img.shields.io/badge/task--extraction.ru-222?style=flat-square&logo=googlechrome&logoColor=white)](https://task-extraction.ru)
@@ -17,9 +17,9 @@ LLM-сервисы и небольшие продукты, которые реш
 
 ## Сейчас
 
-- **Studio2Prod** — внутренняя PIM/WMS-система: заказы Ozon, склады, десятки поставщиков, 1С Fresh, Bitrix24. .NET 8, MySQL, Redis, Hangfire, SignalR. Покрытие тестами публикуется автоматически → [coverage-report](https://evgenibondarev.github.io/coverage-report/report/)
+- **Корпоративная учётная система** — заказы, склады, интеграции с внешними сервисами и учётными системами. .NET 8, MySQL, Redis, Hangfire, SignalR. Покрытие тестами публикуется автоматически → [coverage-report](https://evgenibondarev.github.io/coverage-report/report/)
 - **AI-first разработка** — Claude Code, собственные skills для ревью, тестов и разбора issues
-- **Razbor AI** — распознавание деталей автомобиля по фото через vision-модели (в разработке)
+- **Computer vision** — распознавание объектов по фото через vision-модели (в разработке)
 
 ## Проекты
 
@@ -37,13 +37,13 @@ LLM-сервисы и небольшие продукты, которые реш
 | **[NetBorder](https://github.com/EvgeniBondarev/NetBorder)** | Показывает, когда вы на зарубежном сайте, считает внешний трафик и предупреждает о лимите | TypeScript, Manifest V3 |
 | **[currency-converter-extension](https://github.com/EvgeniBondarev/currency-converter-extension)** | Находит цены на странице и показывает их в нужной валюте. Всё локально | JavaScript, Chrome |
 
-### Backend и e-commerce
+### Backend
 
 | Проект | Что делает | Стек |
 |---|---|---|
-| **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | Web API каталога автозапчастей TecDoc с полнотекстовым поиском | ASP.NET Core, Elasticsearch |
-| **[PrApi](https://github.com/EvgeniBondarev/PrApi)** | Быстрый нечёткий поиск товаров по артикулу и бренду, карточки, справочники | .NET 8 Minimal API, EF Core, MySQL |
-| **[Ozon-Price-Manager](https://github.com/EvgeniBondarev/Ozon-Price-Manager)** | Управление ценами товаров на Ozon | JavaScript |
+| **[StudioB2B](https://github.com/EvgeniBondarev/StudioB2B)** | Multi-tenant SaaS: отдельная БД на каждого клиента, фоновые задачи, realtime | .NET 10, Blazor Server, MySQL, Hangfire |
+| **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | Web API большого каталога с быстрым полнотекстовым поиском | ASP.NET Core, Elasticsearch |
+| **[PrApi](https://github.com/EvgeniBondarev/PrApi)** | Нечёткий поиск по каталогу, карточки, справочники, кэширование | .NET 8 Minimal API, EF Core, MySQL |
 | **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Асинхронный микросервис очередей и отправки сообщений в Telegram | Python, FastAPI |
 | **[Studio1-Web-Client](https://github.com/EvgeniBondarev/Studio1-Web-Client)** | Master-detail CRUD-клиент для OData API каталога | React, Ant Design, OData |
 
