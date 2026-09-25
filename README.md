@@ -63,6 +63,12 @@
 | **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Асинхронный микросервис очередей и отправки сообщений в Telegram | Python, FastAPI |
 | **[Studio1-Web-Client](https://github.com/EvgeniBondarev/Studio1-Web-Client)** | Master-detail CRUD-клиент для OData API каталога | React, Ant Design, OData |
 
+### Библиотеки
+
+| Проект | Что делает | Стек |
+|---|---|---|
+| **[gs-sql](https://github.com/EvgeniBondarev/gs-sql)** [![PyPI](https://img.shields.io/pypi/v/gs-sql?style=flat-square&color=orange)](https://pypi.org/project/gs-sql/) | SQL-запросы к Google Sheets: работа с таблицами как с базой данных. `pip install gs-sql` | Python, Google Sheets API |
+
 ## Стек
 
 <div align="center">
