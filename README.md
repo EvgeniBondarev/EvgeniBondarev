@@ -9,11 +9,18 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-@Burn1ngSnow-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Burn1ngSnow)
 [![TaskExtraction](https://img.shields.io/badge/task--extraction.ru-222?style=flat-square&logo=googlechrome&logoColor=white)](https://task-extraction.ru)
+[![Studio2](https://img.shields.io/badge/studio2.mpsuper.ru-512BD4?style=flat-square&logo=googlechrome&logoColor=white)](https://studio2.mpsuper.ru/)
+[![StudioB2B](https://img.shields.io/badge/interparts.studiob2b.mpsuper.ru-512BD4?style=flat-square&logo=googlechrome&logoColor=white)](https://interparts.studiob2b.mpsuper.ru/)
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-bondarevevgeni-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/u/bondarevevgeni)
 
 </div>
 
 ---
+
+## Сейчас
+
+- **AI-first разработка** — Claude Code, собственные skills для ревью, тестов и разбора issues
+- **Computer vision** — распознавание объектов по фото через vision-модели (в разработке)
 
 ## Проекты
 
@@ -28,7 +35,8 @@
 - row-level security: доступ к данным по организации, складу и статусу;
 - realtime-обновления интерфейса.
 
-**Стек:** .NET 8 · ASP.NET Core MVC · MySQL · Redis · Hangfire · SignalR · Docker
+**Стек:** .NET 8 · ASP.NET Core MVC · MySQL · Redis · Hangfire · SignalR · Docker<br>
+**Сайт:** [studio2.mpsuper.ru](https://studio2.mpsuper.ru/)<br>
 **Покрытие тестами** публикуется автоматически → [coverage-report](https://evgenibondarev.github.io/coverage-report/report/)
 
 ### AI и продукты
@@ -49,7 +57,7 @@
 
 | Проект | Что делает | Стек |
 |---|---|---|
-| **[StudioB2B](https://github.com/EvgeniBondarev/StudioB2B)** | Multi-tenant SaaS: отдельная БД на каждого клиента, фоновые задачи, realtime | .NET 10, Blazor Server, MySQL, Hangfire |
+| **[StudioB2B](https://github.com/EvgeniBondarev/StudioB2B)** | Multi-tenant SaaS: отдельная БД на каждого клиента, фоновые задачи, realtime. [Демо](https://interparts.studiob2b.mpsuper.ru/) | .NET 10, Blazor Server, MySQL, Hangfire |
 | **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | Web API большого каталога с быстрым полнотекстовым поиском | ASP.NET Core, Elasticsearch |
 | **[PrApi](https://github.com/EvgeniBondarev/PrApi)** | Нечёткий поиск по каталогу, карточки, справочники, кэширование | .NET 8 Minimal API, EF Core, MySQL |
 | **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Асинхронный микросервис очередей и отправки сообщений в Telegram | Python, FastAPI |
