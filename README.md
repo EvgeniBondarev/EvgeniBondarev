@@ -1,69 +1,88 @@
 <div align="center">
 
-```
-███████╗██╗   ██╗ ██████╗ ███████╗███╗   ██╗██╗
-██╔════╝██║   ██║██╔════╝ ██╔════╝████╗  ██║██║
-█████╗  ██║   ██║██║  ███╗█████╗  ██╔██╗ ██║██║
-██╔══╝  ╚██╗ ██╔╝██║   ██║██╔══╝  ██║╚██╗██║██║
-███████╗ ╚████╔╝ ╚██████╔╝███████╗██║ ╚████║██║
-╚══════╝  ╚═══╝   ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝
-```
+# Bondarev Evgeni
 
-# Bondarev Evgeni · `EvgeniBondarev`
+**.NET-разработчик · AI-инструменты · автоматизация маркетплейсов**
 
-**AI Founder · Indie Hacker · .NET Developer**
-
-*Building AI products, automation tools and SaaS applications*
+Делаю продакшн-системы для e-commerce (Ozon, поставщики автозапчастей, 1С),
+LLM-сервисы и небольшие продукты, которые решают одну задачу хорошо.
 
 [![Telegram](https://img.shields.io/badge/Telegram-@Burn1ngSnow-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/Burn1ngSnow)
-[![Website](https://img.shields.io/badge/Website-task--extraction.ru-222?style=flat-square&logo=googlechrome&logoColor=white)](https://task-extraction.ru)
-[![GitHub](https://img.shields.io/badge/GitHub-EvgeniBondarev-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EvgeniBondarev)
+[![TaskExtraction](https://img.shields.io/badge/task--extraction.ru-222?style=flat-square&logo=googlechrome&logoColor=white)](https://task-extraction.ru)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-bondarevevgeni-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/u/bondarevevgeni)
 
 </div>
 
 ---
 
-## 🌐 3D Contribution Graph
+## Сейчас
 
-<div align="center">
+- **Studio2Prod** — внутренняя PIM/WMS-система: заказы Ozon, склады, десятки поставщиков, 1С Fresh, Bitrix24. .NET 8, MySQL, Redis, Hangfire, SignalR. Покрытие тестами публикуется автоматически → [coverage-report](https://evgenibondarev.github.io/coverage-report/report/)
+- **AI-first разработка** — Claude Code, собственные skills для ревью, тестов и разбора issues
+- **Razbor AI** — распознавание деталей автомобиля по фото через vision-модели (в разработке)
 
-[![3D Contributions](https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/master/profile-3d-contrib/profile-night-green.svg)](https://github.com/EvgeniBondarev)
+## Проекты
 
-</div>
+### AI и продукты
 
----
-
-## 🚀 Featured Projects
-
-| Project | Description | Stack |
+| Проект | Что делает | Стек |
 |---|---|---|
-| 🧠 **[TaskExtraction](https://github.com/EvgeniBondarev/TaskExtraction)** | Автоматическое извлечение задач из Telegram-чатов | TypeScript |
-| 🔌 **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | ASP.NET Core Web API для каталога автозапчастей TecDoc + Elasticsearch | C# |
-| 🌐 **[NetBorder](https://github.com/EvgeniBondarev/NetBorder)** | Chromium-расширение: учёт внешнего трафика по дням и предупреждение о лимите | TypeScript |
-| 🤖 **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Async FastAPI микросервис для очередей и отправки сообщений в Telegram | Python |
-| 💰 **[Ozon-Price-Manager](https://github.com/EvgeniBondarev/Ozon-Price-Manager)** | Инструмент управления ценами товаров на Ozon | JavaScript |
-| 🛢️ **[gs-sql](https://github.com/EvgeniBondarev/gs-sql)** | SQL-библиотека на Python | Python |
+| **[TaskExtraction](https://github.com/EvgeniBondarev/TaskExtraction)** | Задачи из Telegram-чатов → LLM-классификация → канбан → Jira, Trello, GitHub Issues, Slack. [Сайт](https://task-extraction.ru) | FastAPI, Telethon, TypeScript, Docker |
+| **[elicit-first](https://github.com/EvgeniBondarev/elicit-first)** | Системный промпт-скилл: заставляет AI-ассистента уточнить задачу до написания кода | Prompt engineering, Claude, GPT |
 
----
+### Браузерные расширения
 
-## 🛠️ Tech Stack
+| Проект | Что делает | Стек |
+|---|---|---|
+| **[NetBorder](https://github.com/EvgeniBondarev/NetBorder)** | Показывает, когда вы на зарубежном сайте, считает внешний трафик и предупреждает о лимите | TypeScript, Manifest V3 |
+| **[currency-converter-extension](https://github.com/EvgeniBondarev/currency-converter-extension)** | Находит цены на странице и показывает их в нужной валюте. Всё локально | JavaScript, Chrome |
+
+### Backend и e-commerce
+
+| Проект | Что делает | Стек |
+|---|---|---|
+| **[TecDocApi](https://github.com/EvgeniBondarev/TecDocApi)** | Web API каталога автозапчастей TecDoc с полнотекстовым поиском | ASP.NET Core, Elasticsearch |
+| **[PrApi](https://github.com/EvgeniBondarev/PrApi)** | Быстрый нечёткий поиск товаров по артикулу и бренду, карточки, справочники | .NET 8 Minimal API, EF Core, MySQL |
+| **[Ozon-Price-Manager](https://github.com/EvgeniBondarev/Ozon-Price-Manager)** | Управление ценами товаров на Ozon | JavaScript |
+| **[telegram-forwarder](https://github.com/EvgeniBondarev/telegram-forwarder)** | Асинхронный микросервис очередей и отправки сообщений в Telegram | Python, FastAPI |
+| **[Studio1-Web-Client](https://github.com/EvgeniBondarev/Studio1-Web-Client)** | Master-detail CRUD-клиент для OData API каталога | React, Ant Design, OData |
+
+## Стек
 
 <div align="center">
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET%208-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+<br>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Hangfire](https://img.shields.io/badge/Hangfire-2E3440?style=flat-square)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<br>
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=flat-square)
+
+</div>
+
+## Активность
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/master/profile-3d-contrib/profile-night-green.svg">
+  <img alt="3D contribution graph" src="https://raw.githubusercontent.com/EvgeniBondarev/EvgeniBondarev/master/profile-3d-contrib/profile-green.svg">
+</picture>
 
 </div>
 
@@ -71,6 +90,6 @@
 
 <div align="center">
 
-*London · 46 repositories · Open to collaboration*
+Открыт к сотрудничеству и интересным задачам — пишите в [Telegram](https://t.me/Burn1ngSnow).
 
 </div>
